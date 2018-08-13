@@ -6,6 +6,16 @@ import (
 	"time"
 )
 
+/*
+	-> make chat room
+	-> join chat room
+	-> say something
+	-> kick out (only if started)
+	-> brodcast to all chat rooms
+	-> view all my chat rooms
+	-> who started
+*/
+
 func readStuff(conn net.Conn) {
 	for {
 		var bytes = make([]byte, 1024)
